@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Finlandica:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="text-container">
+          <h1 class="heading">Learn to code by watching others</h1>
+
+          <p class="paragraph">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+
+        <div class="trail-container">
+          <div class="trail">
+            <p class="paragraph2">
+              <span style="color: white; opacity: 0.8">Try it free 7 days</span>
+              then $20/mo. thereafter
+            </p>
+          </div>
+          <form action="" id="form-container">
+            <div>
+              <input
+                type="text"
+                name="fName"
+                id="fName"
+                class="box"
+                placeholder="First Name "
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="icon-error"
+                class="error1 error-icon"
+              />
+              <div class="result fResult"></div>
+            </div>
+
+            <div>
+              <input
+                type="text"
+                name="lName"
+                id="lName"
+                class="box"
+                placeholder="Last Name "
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="icon-error"
+                class="error2 error-icon"
+              />
+              <div class="result lResult"></div>
+            </div>
+
+            <div>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="box"
+                placeholder="Email Address"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="icon-error"
+                class="error3 error-icon"
+              />
+              <div class="result emailResult"></div>
+            </div>
+
+            <div>
+              <input
+                type="Password"
+                name="password"
+                id="password"
+                class="box"
+                placeholder="Password"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="icon-error"
+                class="error4 error-icon"
+              />
+              <div class="passwordResult result"></div>
+            </div>
+
+            <button class="btn">Claim your free trial</button>
+
+            <footer>
+              <p class="paragraph3">
+                By clicking the button, you are agreeing to our
+                <span style="color: hsl(0, 100%, 74%)">Terms and Services</span>
+              </p>
+            </footer>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="./signup.js"></script>
+  </body>
+</html>
