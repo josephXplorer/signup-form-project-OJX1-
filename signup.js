@@ -6,7 +6,7 @@ const password = document.querySelector('#password');
 
 // Get all error message containers and error icons
 const errorIcons = document.querySelectorAll('.error-icon');
-// const errorIcons = document.querySelectorAll('[class^="error"]'); // Selects error1, error2, error3, error4
+// const errorIcons = document.querySelectorAll('[class^="error"]'); // Selects error1, error2, error3, error4 
 const fError = document.querySelector('.fResult');
 const lError = document.querySelector('.lResult');
 const emailError = document.querySelector('.emailResult');
